@@ -7,11 +7,9 @@ the latest `main` branch state.
 
 ## Reporting a vulnerability
 
-Please do not open public issues for suspected vulnerabilities.
+Please create a GitHub issue in this repository to report vulnerabilities:
 
-Instead, report privately to:
-
-- maintainer@example.com
+- https://github.com/MooseQuest/prompt-ai-guide/issues
 
 Include:
 - A clear description of the issue

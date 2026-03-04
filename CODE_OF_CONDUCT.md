@@ -58,9 +58,9 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at:
+reported by creating a GitHub issue in this repository:
 
-- maintainer@example.com
+- https://github.com/MooseQuest/prompt-ai-guide/issues
 
 All complaints will be reviewed and investigated promptly and fairly.
 
