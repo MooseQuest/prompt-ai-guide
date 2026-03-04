@@ -9,7 +9,7 @@ When making code changes, update related documentation as needed.
 
 ## Prompt.AI
 Mode switch:
-- If `prompt.ai/development_log.template.md` exists, treat repo as template mode.
+- If `prompt.ai/TEMPLATE_MODE` exists, treat repo as template mode.
 - If it does not exist, treat repo as project mode.
 
 After each meaningful task:
