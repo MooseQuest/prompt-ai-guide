@@ -4,3 +4,4 @@ node_modules/
 dist/
 build/
 *.log
+prompt.ai/session_notes.local.md
