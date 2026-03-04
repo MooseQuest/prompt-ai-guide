@@ -37,4 +37,4 @@ Examples:
 - Keep `prompt.ai/development_log.md` template-clean
 - Do not commit `prompt.ai/session_notes.local.md`
 - Move lasting insights into `prompt.ai/research/`
-- In downstream project repos, remove `prompt.ai/TEMPLATE_MODE` to re-enable project-mode log updates
+- In downstream project repos, update `.cursor/rules/prompt-ai.mdc` to re-enable project-mode log updates

@@ -8,16 +8,11 @@ alwaysApply: false
 When making code changes, update related documentation as needed.
 
 ## Prompt.AI
-Mode switch:
-- If `prompt.ai/TEMPLATE_MODE` exists, treat repo as template mode.
-- If it does not exist, treat repo as project mode.
+This repository is the template source. Keep tracked template files clean.
 
 After each meaningful task:
-- Template mode:
-  - Do not append project/session history to `prompt.ai/development_log.md`
-  - Prefer writing guidance and findings in `prompt.ai/research/`
-  - If temporary local notes are needed, use `prompt.ai/session_notes.local.md` (gitignored)
-- Project mode:
-  - Add an entry to `prompt.ai/development_log.md`
-  - Include what changed, why, and any follow-up items
+- Do not append project/session history to `prompt.ai/development_log.md`
+- Prefer writing guidance and findings in `prompt.ai/research/`
+- If temporary local notes are needed, use `prompt.ai/session_notes.local.md` (gitignored)
+- In downstream project repos, update this rule to enable `development_log.md` entries
 - For releases, create `prompt.ai/vX.Y.Z_release_summary.md`
