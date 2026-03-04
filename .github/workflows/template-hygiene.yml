@@ -1,0 +1,37 @@
+name: Template Hygiene
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  clean-development-log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reset development log from template
+        run: |
+          set -euo pipefail
+          cp "prompt.ai/development_log.template.md" "prompt.ai/development_log.md"
+
+      - name: Commit cleanup if needed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- "prompt.ai/development_log.md"; then
+            echo "No template cleanup needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "prompt.ai/development_log.md"
+          git commit -m "chore(template): reset development log from template"
+          git push
