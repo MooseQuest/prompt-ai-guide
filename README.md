@@ -17,6 +17,20 @@ Reusable open-source starter kit for `prompt.ai` workflow + Cursor rules.
 2. Keep the `.cursor/rules` files in your project root.
 3. Update `prompt.ai/development_log.md` as tasks are completed.
 4. Follow `prompt.ai/git_workflow.md` when creating branches/commits/releases.
+5. Tell your AI agent: "Read this repository and implement the `prompt.ai` workflow in this project."
+
+### Copy-paste starter prompt
+
+```text
+Read this repository and implement the same `prompt.ai` workflow in my project.
+
+Requirements:
+- Create `prompt.ai/development_log.md` and `prompt.ai/git_workflow.md`
+- Create `.cursor/rules/prompt-ai.mdc` and `.cursor/rules/git-commit.mdc`
+- Add `prompt.ai/research/README.md` for LLM-generated guidance artifacts
+- Update `README.md` and `CONTRIBUTING.md` to reference these workflow files
+- Log your changes in `prompt.ai/development_log.md`
+```
 
 ## Folder structure
 
