@@ -2,7 +2,7 @@
 
 Reusable open-source starter kit for `prompt.ai` workflow + Cursor rules.
 
-![Typing demo](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=900&width=1000&lines=You%3A+Fetch+and+analyze+prompt-ai-guide;AI%3A+Creating+prompt.ai%2Fdevelopment_log.md;AI%3A+Creating+prompt.ai%2Fgit_workflow.md;AI%3A+Creating+.cursor%2Frules%2Fprompt-ai.mdc;AI%3A+Updating+README.md+and+CONTRIBUTING.md;Done%3A+Workflow+installed)
+![Terminal demo](./assets/terminal-window.svg)
 
 If animation does not render in your client, use the static transcript below.
 

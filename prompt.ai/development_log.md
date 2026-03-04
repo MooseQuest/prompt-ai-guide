@@ -14,6 +14,7 @@
 - Replaced email-based contact in governance docs with GitHub issues instructions.
 - Added top-of-README demo transcript and tab-like ChatGPT/Claude prompt examples.
 - Added an animated typing banner near the top of `README.md`.
+- Replaced banner with an animated terminal-window SVG showing history + fast typing.
 
 ---
 
