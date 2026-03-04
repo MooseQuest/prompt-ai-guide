@@ -1,6 +1,9 @@
 # prompt-ai-guide
 
-Reusable open-source starter kit for `prompt.ai` workflow + Cursor rules.
+Context loss is a workflow problem.
+Fix it with lightweight prompt management for teams shipping real work.
+
+AI-agnostic: works with LLMs, Agents, and MCP workflows.
 
 ![Terminal demo](./assets/terminal-preview.svg)
 
