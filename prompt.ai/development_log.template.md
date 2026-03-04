@@ -1,7 +1,7 @@
 # Development Log
 
 This file is intentionally kept template-clean on `main`.
-It may be auto-reset by `.github/workflows/template-hygiene.yml` after merges.
+In this template repository, do not append session history here.
 
 Use this format in projects that adopt the template.
 
