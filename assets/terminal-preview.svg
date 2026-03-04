@@ -17,37 +17,37 @@
     </filter>
 
     <!-- 20s total loop: ~9.6s typing + ~10.4s hold -->
-    <clipPath id="line1Clip">
+    <clipPath id="line1Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="146" width="0" height="34">
         <animate attributeName="width" values="0;0;760;760" keyTimes="0;0.03;0.09;1" dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
-    <clipPath id="line2Clip">
+    <clipPath id="line2Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="200" width="0" height="34">
         <animate attributeName="width" values="0;0;420;420" keyTimes="0;0.105;0.15;1" dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
-    <clipPath id="line3Clip">
+    <clipPath id="line3Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="240" width="0" height="34">
         <animate attributeName="width" values="0;0;500;500" keyTimes="0;0.16;0.21;1" dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
-    <clipPath id="line4Clip">
+    <clipPath id="line4Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="280" width="0" height="34">
         <animate attributeName="width" values="0;0;430;430" keyTimes="0;0.22;0.27;1" dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
-    <clipPath id="line5Clip">
+    <clipPath id="line5Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="320" width="0" height="34">
         <animate attributeName="width" values="0;0;470;470" keyTimes="0;0.28;0.335;1" dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
-    <clipPath id="line6Clip">
+    <clipPath id="line6Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="360" width="0" height="34">
         <animate attributeName="width" values="0;0;460;460" keyTimes="0;0.345;0.40;1" dur="20s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
-    <clipPath id="line7Clip">
+    <clipPath id="line7Clip" clipPathUnits="userSpaceOnUse">
       <rect x="110" y="438" width="0" height="34">
         <animate attributeName="width" values="0;0;505;505" keyTimes="0;0.415;0.48;1" dur="20s" repeatCount="indefinite"/>
       </rect>
@@ -65,13 +65,27 @@
   <text x="640" y="99" fill="#9fb4dd" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" text-anchor="middle">prompt-ai-guide terminal preview</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">
-    <text x="110" y="170" fill="#e5edf9" clip-path="url(#line1Clip)"><tspan fill="#2dd4bf">$ </tspan>fetch + analyze github.com/MooseQuest/prompt-ai-guide</text>
-    <text x="110" y="224" fill="#67e8f9" clip-path="url(#line2Clip)">&gt; reading repository structure...</text>
-    <text x="110" y="264" fill="#67e8f9" clip-path="url(#line3Clip)">&gt; creating prompt.ai/development_log.md</text>
-    <text x="110" y="304" fill="#67e8f9" clip-path="url(#line4Clip)">&gt; creating prompt.ai/git_workflow.md</text>
-    <text x="110" y="344" fill="#67e8f9" clip-path="url(#line5Clip)">&gt; creating .cursor/rules/prompt-ai.mdc</text>
-    <text x="110" y="384" fill="#67e8f9" clip-path="url(#line6Clip)">&gt; updating README.md + CONTRIBUTING.md</text>
-    <text x="110" y="462" fill="#f8fafc" clip-path="url(#line7Clip)"><tspan fill="#4ade80">AI&gt; </tspan>workflow installed. all files created.</text>
+    <g clip-path="url(#line1Clip)">
+      <text x="110" y="170" fill="#e5edf9"><tspan fill="#2dd4bf">$ </tspan>fetch + analyze github.com/MooseQuest/prompt-ai-guide</text>
+    </g>
+    <g clip-path="url(#line2Clip)">
+      <text x="110" y="224" fill="#67e8f9">&gt; reading repository structure...</text>
+    </g>
+    <g clip-path="url(#line3Clip)">
+      <text x="110" y="264" fill="#67e8f9">&gt; creating prompt.ai/development_log.md</text>
+    </g>
+    <g clip-path="url(#line4Clip)">
+      <text x="110" y="304" fill="#67e8f9">&gt; creating prompt.ai/git_workflow.md</text>
+    </g>
+    <g clip-path="url(#line5Clip)">
+      <text x="110" y="344" fill="#67e8f9">&gt; creating .cursor/rules/prompt-ai.mdc</text>
+    </g>
+    <g clip-path="url(#line6Clip)">
+      <text x="110" y="384" fill="#67e8f9">&gt; updating README.md + CONTRIBUTING.md</text>
+    </g>
+    <g clip-path="url(#line7Clip)">
+      <text x="110" y="462" fill="#f8fafc"><tspan fill="#4ade80">AI&gt; </tspan>workflow installed. all files created.</text>
+    </g>
 
     <rect x="688" y="444" width="10" height="24" fill="#f8fafc">
       <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.52;0.98;1" dur="20s" repeatCount="indefinite"/>
