@@ -49,7 +49,7 @@ prompt.ai/development_log.md.
 - `prompt.ai/research` for LLM-generated guidance and analysis artifacts
 - `.cursor/rules` guidance for consistent AI-assisted workflows
 - Starter `git_workflow.md` using Conventional Commits + SemVer
-- CI template hygiene check for `prompt.ai/development_log.md` on PRs to `main`
+- Post-merge automation that resets `prompt.ai/development_log.md` on `main`
 - Baseline open-source repo files (`LICENSE`, `CONTRIBUTING.md`)
 - Community governance files (`CODE_OF_CONDUCT.md`, `SECURITY.md`)
 
@@ -97,6 +97,7 @@ Then tailor:
 
 For this template repository, `prompt.ai/development_log.md` is kept clean on
 `main` and matches `prompt.ai/development_log.template.md`.
+`.github/workflows/template-hygiene.yml` automatically resets it after merges.
 
 ## Research artifacts
 

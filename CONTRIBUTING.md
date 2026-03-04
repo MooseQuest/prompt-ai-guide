@@ -35,4 +35,4 @@ Examples:
 
 - For PRs into `main`, keep `prompt.ai/development_log.md` template-clean
 - `prompt.ai/development_log.md` must match `prompt.ai/development_log.template.md`
-- CI enforces this rule in `.github/workflows/template-hygiene.yml`
+- `.github/workflows/template-hygiene.yml` auto-resets this file after merges to `main`
