@@ -2,35 +2,9 @@
 
 Reusable open-source starter kit for `prompt.ai` workflow + Cursor rules.
 
-![Terminal demo](./assets/terminal-window.svg)
+![Terminal demo](./assets/terminal-preview.svg)
 
-If animation does not render in your client, use the static transcript below.
-
-## Demo: Prompt -> Agent Response
-
-The snippet below shows the intended experience: you paste one instruction, and
-the agent scaffolds the workflow files.
-
-```text
-You: "Fetch and analyze https://github.com/MooseQuest/prompt-ai-guide.
-Then implement the same prompt.ai workflow in this project."
-
-AI Agent:
-> Reading repository structure...
-> Creating prompt.ai/development_log.md
-> Creating prompt.ai/git_workflow.md
-> Creating .cursor/rules/prompt-ai.mdc
-> Creating .cursor/rules/git-commit.mdc
-> Creating prompt.ai/research/README.md
-> Updating README.md and CONTRIBUTING.md references
-> Logging all changes in prompt.ai/development_log.md
-Done. Workflow installed.
-```
-
-### Assistant style examples (tab-like)
-
-GitHub README does not support real tabs, so this uses collapsible sections to
-emulate ChatGPT/Claude variants.
+### Copy-paste starter prompt
 
 <details open>
   <summary><strong>ChatGPT-style prompt</strong></summary>
@@ -75,6 +49,7 @@ prompt.ai/development_log.md.
 - `prompt.ai/research` for LLM-generated guidance and analysis artifacts
 - `.cursor/rules` guidance for consistent AI-assisted workflows
 - Starter `git_workflow.md` using Conventional Commits + SemVer
+- CI template hygiene check for `prompt.ai/development_log.md` on PRs to `main`
 - Baseline open-source repo files (`LICENSE`, `CONTRIBUTING.md`)
 - Community governance files (`CODE_OF_CONDUCT.md`, `SECURITY.md`)
 
@@ -84,25 +59,7 @@ prompt.ai/development_log.md.
 2. Keep the `.cursor/rules` files in your project root.
 3. Update `prompt.ai/development_log.md` as tasks are completed.
 4. Follow `prompt.ai/git_workflow.md` when creating branches/commits/releases.
-5. Tell your AI agent: "Read this repository and implement the `prompt.ai` workflow in this project."
-
-### Copy-paste starter prompt
-
-```text
-Fetch and analyze this GitHub repository first:
-https://github.com/MooseQuest/prompt-ai-guide
-
-If this repo was forked, use the current fork URL instead of the original.
-
-Then implement the same `prompt.ai` workflow in my project.
-
-Requirements:
-- Create `prompt.ai/development_log.md` and `prompt.ai/git_workflow.md`
-- Create `.cursor/rules/prompt-ai.mdc` and `.cursor/rules/git-commit.mdc`
-- Add `prompt.ai/research/README.md` for LLM-generated guidance artifacts
-- Update `README.md` and `CONTRIBUTING.md` to reference these workflow files
-- Log your changes in `prompt.ai/development_log.md`
-```
+5. Use one of the copy-paste prompts above with your preferred assistant.
 
 ## Folder structure
 
@@ -114,6 +71,7 @@ prompt-ai-guide/
       git-commit.mdc
   prompt.ai/
     development_log.md
+    development_log.template.md
     git_workflow.md
     release_summary_template.md
     research/
@@ -134,6 +92,11 @@ Then tailor:
 - docs links in `CONTRIBUTING.md`
 - release process details for your team
 - research conventions in `prompt.ai/research/README.md`
+
+## Template hygiene
+
+For this template repository, `prompt.ai/development_log.md` is kept clean on
+`main` and matches `prompt.ai/development_log.template.md`.
 
 ## Research artifacts
 

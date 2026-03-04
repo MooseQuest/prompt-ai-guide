@@ -30,3 +30,9 @@ Examples:
 - Update docs for behavior changes
 - Add an entry to `prompt.ai/development_log.md`
 - If using LLM research/guidance, add or update a file in `prompt.ai/research/`
+
+## Template hygiene for this repo
+
+- For PRs into `main`, keep `prompt.ai/development_log.md` template-clean
+- `prompt.ai/development_log.md` must match `prompt.ai/development_log.template.md`
+- CI enforces this rule in `.github/workflows/template-hygiene.yml`

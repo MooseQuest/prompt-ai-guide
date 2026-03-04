@@ -1,0 +1,22 @@
+name: Template Hygiene
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  keep-template-clean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure development log matches template
+        run: |
+          set -euo pipefail
+          if ! cmp -s "prompt.ai/development_log.md" "prompt.ai/development_log.template.md"; then
+            echo "prompt.ai/development_log.md must match prompt.ai/development_log.template.md for PRs into main."
+            echo "Please reset development_log.md to template content before merging."
+            exit 1
+          fi
