@@ -1,0 +1,34 @@
+---
+description: Follow the git workflow defined in prompt.ai/git_workflow.md.
+globs:
+alwaysApply: false
+---
+
+# Git Workflow
+
+Always follow the process in `prompt.ai/git_workflow.md`.
+
+## Commit standards
+Use Conventional Commits:
+
+```text
+<type>[optional scope]: <description>
+```
+
+Types:
+- feat
+- fix
+- docs
+- refactor
+- test
+- chore
+- ci
+- build
+- perf
+- style
+
+## Basic rules
+- Keep commits atomic and focused
+- Avoid unrelated changes in the same commit
+- Use clear, intentional commit messages
+- Update `prompt.ai/development_log.md` with notable changes

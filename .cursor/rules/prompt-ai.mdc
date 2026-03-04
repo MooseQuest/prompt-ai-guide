@@ -1,0 +1,16 @@
+---
+description: After completing a task, update the prompt.ai folder.
+globs:
+alwaysApply: false
+---
+
+## Documentation
+When making code changes, update related documentation as needed.
+
+## Prompt.AI
+The `prompt.ai` folder stores development history and release notes.
+
+After each meaningful task:
+- Add an entry to `prompt.ai/development_log.md`
+- Include what changed, why, and any follow-up items
+- For releases, create `prompt.ai/vX.Y.Z_release_summary.md`
