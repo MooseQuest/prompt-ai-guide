@@ -70,8 +70,8 @@ prompt-ai-guide/
       prompt-ai.mdc
       git-commit.mdc
   prompt.ai/
+    TEMPLATE_MODE
     development_log.md
-    development_log.template.md
     session_notes.template.md
     git_workflow.md
     release_summary_template.md
@@ -101,7 +101,7 @@ In this repository (the template source), keep tracked template files clean.
 - Do not append session history to `prompt.ai/development_log.md`
 - Put durable findings in `prompt.ai/research/`
 - Use `prompt.ai/session_notes.local.md` for scratch notes (gitignored)
-- In adopted project repos, remove `prompt.ai/development_log.template.md` to switch to project-mode logging
+- In adopted project repos, remove `prompt.ai/TEMPLATE_MODE` to switch to project-mode logging
 
 ## Research artifacts
 
