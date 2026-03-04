@@ -34,33 +34,33 @@
   </g>
 
   <!-- Cover lines and wipe left->right to simulate typing -->
-  <rect x="110" y="146" width="760" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;870;870" keyTimes="0;0.03;0.09;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="760;760;0;0" keyTimes="0;0.03;0.09;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="144" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.03;0.09;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.03;0.09;1" dur="20s" repeatCount="indefinite"/>
   </rect>
-  <rect x="110" y="200" width="420" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;530;530" keyTimes="0;0.105;0.15;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="420;420;0;0" keyTimes="0;0.105;0.15;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="198" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.105;0.15;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.105;0.15;1" dur="20s" repeatCount="indefinite"/>
   </rect>
-  <rect x="110" y="240" width="500" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;610;610" keyTimes="0;0.16;0.21;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="500;500;0;0" keyTimes="0;0.16;0.21;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="238" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.16;0.21;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.16;0.21;1" dur="20s" repeatCount="indefinite"/>
   </rect>
-  <rect x="110" y="280" width="430" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;540;540" keyTimes="0;0.22;0.27;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="430;430;0;0" keyTimes="0;0.22;0.27;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="278" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.22;0.27;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.22;0.27;1" dur="20s" repeatCount="indefinite"/>
   </rect>
-  <rect x="110" y="320" width="470" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;580;580" keyTimes="0;0.28;0.335;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="470;470;0;0" keyTimes="0;0.28;0.335;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="318" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.28;0.335;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.28;0.335;1" dur="20s" repeatCount="indefinite"/>
   </rect>
-  <rect x="110" y="360" width="460" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;570;570" keyTimes="0;0.345;0.40;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="460;460;0;0" keyTimes="0;0.345;0.40;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="358" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.345;0.40;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.345;0.40;1" dur="20s" repeatCount="indefinite"/>
   </rect>
-  <rect x="110" y="438" width="505" height="38" fill="#0b132d">
-    <animate attributeName="x" values="110;110;615;615" keyTimes="0;0.415;0.48;1" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="width" values="505;505;0;0" keyTimes="0;0.415;0.48;1" dur="20s" repeatCount="indefinite"/>
+  <rect x="110" y="436" width="980" height="44" fill="#0b132d">
+    <animate attributeName="x" values="110;110;1090;1090" keyTimes="0;0.415;0.48;1" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="980;980;0;0" keyTimes="0;0.415;0.48;1" dur="20s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Cursor appears during final line and blinks during hold -->
