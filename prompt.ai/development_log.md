@@ -10,6 +10,7 @@
 - Updated `README.md` and `CONTRIBUTING.md` to include research folder usage.
 - Updated Quick Start in `README.md` with a direct AI-agent bootstrap instruction.
 - Added a copy-paste starter prompt block to `README.md` for faster AI setup.
+- Updated the starter prompt to explicitly fetch the GitHub repo URL and support fork URLs.
 
 ---
 

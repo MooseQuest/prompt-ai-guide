@@ -22,7 +22,12 @@ Reusable open-source starter kit for `prompt.ai` workflow + Cursor rules.
 ### Copy-paste starter prompt
 
 ```text
-Read this repository and implement the same `prompt.ai` workflow in my project.
+Fetch and analyze this GitHub repository first:
+https://github.com/MooseQuest/prompt-ai-guide
+
+If this repo was forked, use the current fork URL instead of the original.
+
+Then implement the same `prompt.ai` workflow in my project.
 
 Requirements:
 - Create `prompt.ai/development_log.md` and `prompt.ai/git_workflow.md`
