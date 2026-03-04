@@ -7,6 +7,7 @@ Thanks for contributing.
 This template uses:
 - `prompt.ai/development_log.md` for ongoing work logs
 - `prompt.ai/git_workflow.md` for branching, commit, and release process
+- `prompt.ai/research/README.md` for LLM-guided research artifacts
 - `.cursor/rules/*.mdc` to guide AI-assisted coding behavior
 
 ## Commit format
@@ -28,3 +29,4 @@ Examples:
 - Include test evidence (if applicable)
 - Update docs for behavior changes
 - Add an entry to `prompt.ai/development_log.md`
+- If using LLM research/guidance, add or update a file in `prompt.ai/research/`

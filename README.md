@@ -5,9 +5,11 @@ Reusable open-source starter kit for `prompt.ai` workflow + Cursor rules.
 ## What this gives you
 
 - `prompt.ai` folder for development logs and release summaries
+- `prompt.ai/research` for LLM-generated guidance and analysis artifacts
 - `.cursor/rules` guidance for consistent AI-assisted workflows
 - Starter `git_workflow.md` using Conventional Commits + SemVer
 - Baseline open-source repo files (`LICENSE`, `CONTRIBUTING.md`)
+- Community governance files (`CODE_OF_CONDUCT.md`, `SECURITY.md`)
 
 ## Quick start
 
@@ -28,8 +30,12 @@ prompt-ai-guide/
     development_log.md
     git_workflow.md
     release_summary_template.md
+    research/
+      README.md
   CONTRIBUTING.md
+  CODE_OF_CONDUCT.md
   LICENSE
+  SECURITY.md
   README.md
 ```
 
@@ -41,6 +47,21 @@ Then tailor:
 - branch names in `prompt.ai/git_workflow.md`
 - docs links in `CONTRIBUTING.md`
 - release process details for your team
+- research conventions in `prompt.ai/research/README.md`
+
+## Research artifacts
+
+Store LLM-generated guidance for agents in `prompt.ai/research/`.
+
+Use this when you need to capture:
+- prompt experiments and outputs
+- strategy notes for agent execution
+- technical trade-offs from model-assisted research
+
+## Community and security
+
+- Community standards: see `CODE_OF_CONDUCT.md`
+- Vulnerability reporting process: see `SECURITY.md`
 
 ## License
 

@@ -4,6 +4,10 @@
 - Initialized `prompt.ai` workflow starter repository.
 - Added Cursor rules for prompt.ai updates and git workflow enforcement.
 - Added base documentation, contributing guide, and MIT license.
+- Added `CODE_OF_CONDUCT.md` and `SECURITY.md` for open-source governance.
+- Updated `README.md` with community and security references.
+- Added `prompt.ai/research/README.md` to define how to store LLM guidance artifacts.
+- Updated `README.md` and `CONTRIBUTING.md` to include research folder usage.
 
 ---
 
