@@ -70,6 +70,40 @@ prompt.ai/research/ and local session notes.
 - **Software delivery**: track implementation intent, coding conventions, and release workflow so AI outputs stay consistent across sessions and contributors.
 - **Work and document projects**: apply the same structure to operations docs, planning artifacts, and process-heavy knowledge work where context drift hurts quality.
 
+## Story: live monitoring thread
+
+One of the most useful non-code examples came from a long-running monitoring
+thread following a fast-changing geopolitical situation.
+
+Before structure, the thread drifted into common failure modes:
+- repeated summaries
+- inconsistent sourcing
+- context loss between updates
+- unclear deltas between messages
+
+After applying Prompt.AI principles, quality improved quickly.
+
+### What changed
+
+1. **Delta-first updates**
+   - Every response starts with: `What changed since last update`
+2. **Structured sourcing**
+   - Require multiple viewpoints each cycle (for example: two U.S. sources, one local source, one foreign source, and latest official guidance)
+3. **Thread as log**
+   - Treat each update like a log entry (similar to `prompt.ai/development_log.md`)
+4. **Research artifacts**
+   - Use short analysis notes for deeper interpretation (similar to `prompt.ai/research/`)
+
+### Why it worked
+
+- updates got shorter and clearer
+- repetition dropped
+- readers could spot real change immediately
+- context stayed stable across many messages
+
+Prompt.AI works well anywhere information arrives incrementally and must stay
+coherent over time.
+
 ## What this gives you
 
 - `prompt.ai` folder for development logs and release summaries
