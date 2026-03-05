@@ -6,18 +6,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MooseQuest/prompt-ai-guide/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/MooseQuest/prompt-ai-guide?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/MooseQuest/prompt-ai-guide/blob/main/LICENSE">
-    <img alt="MIT license" src="https://img.shields.io/github/license/MooseQuest/prompt-ai-guide?style=for-the-badge" />
-  </a>
-  <img alt="AI agnostic" src="https://img.shields.io/badge/AI-agnostic-22c55e?style=for-the-badge" />
-  <img alt="MCP ready" src="https://img.shields.io/badge/MCP-ready-0ea5e9?style=for-the-badge" />
+  <code>AI-agnostic</code>
+  <code>LLMs</code>
+  <code>Agents</code>
+  <code>MCP</code>
+  <code>MIT</code>
 </p>
 
 <p align="center">
   <a href="#copy-paste-starter-prompt">Starter Prompt</a> •
+  <a href="#use-cases">Use Cases</a> •
   <a href="#what-this-gives-you">What You Get</a> •
   <a href="#quick-start">Quick Start</a> •
   <a href="#using-this-in-another-repo">Use In Another Repo</a>
@@ -65,6 +63,12 @@ Also update README/CONTRIBUTING references and record the setup in
 prompt.ai/research/ and local session notes.
 ```
 </details>
+
+## Use cases
+
+- **Chat thread continuity**: keep long-running assistant conversations grounded by storing durable decisions and prompt evolution in `prompt.ai/research/`.
+- **Software delivery**: track implementation intent, coding conventions, and release workflow so AI outputs stay consistent across sessions and contributors.
+- **Work and document projects**: apply the same structure to operations docs, planning artifacts, and process-heavy knowledge work where context drift hurts quality.
 
 ## What this gives you
 
