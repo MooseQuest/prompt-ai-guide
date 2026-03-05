@@ -1,9 +1,29 @@
-# prompt-ai-guide
+<h1 align="center">prompt-ai-guide</h1>
 
-Context loss is a workflow problem.
-Fix it with lightweight prompt management for teams shipping real work.
+<p align="center">
+  <strong>Context loss is a workflow problem.</strong><br/>
+  Fix it with lightweight prompt management for teams shipping real work.
+</p>
 
-AI-agnostic: works with LLMs, Agents, and MCP workflows.
+<p align="center">
+  <a href="https://github.com/MooseQuest/prompt-ai-guide/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/MooseQuest/prompt-ai-guide?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/MooseQuest/prompt-ai-guide/blob/main/LICENSE">
+    <img alt="MIT license" src="https://img.shields.io/github/license/MooseQuest/prompt-ai-guide?style=for-the-badge" />
+  </a>
+  <img alt="AI agnostic" src="https://img.shields.io/badge/AI-agnostic-22c55e?style=for-the-badge" />
+  <img alt="MCP ready" src="https://img.shields.io/badge/MCP-ready-0ea5e9?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <a href="#copy-paste-starter-prompt">Starter Prompt</a> •
+  <a href="#what-this-gives-you">What You Get</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#using-this-in-another-repo">Use In Another Repo</a>
+</p>
+
+> AI-agnostic: works with LLMs, Agents, and MCP workflows.
 
 ![Terminal demo](./assets/terminal-preview.svg)
 
