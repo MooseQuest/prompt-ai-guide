@@ -38,7 +38,7 @@ Then implement the same prompt.ai workflow in my project.
 
 Requirements:
 - Create prompt.ai/development_log.md and prompt.ai/git_workflow.md
-- Create .cursor/rules/prompt-ai.mdc and .cursor/rules/git-commit.mdc
+- Create a CLAUDE.md with AI-assistant guidance (Conventional Commits + template hygiene)
 - Add prompt.ai/research/README.md for LLM-generated guidance artifacts
 - Update README.md and CONTRIBUTING.md to reference these files
 - Add durable guidance to prompt.ai/research/ and keep session scratch notes local
@@ -55,9 +55,8 @@ https://github.com/MooseQuest/prompt-ai-guide
 Set up the same structure in this repository:
 1) prompt.ai/development_log.md
 2) prompt.ai/git_workflow.md
-3) .cursor/rules/prompt-ai.mdc
-4) .cursor/rules/git-commit.mdc
-5) prompt.ai/research/README.md
+3) CLAUDE.md (AI-assistant guidance: commits + template hygiene)
+4) prompt.ai/research/README.md
 
 Also update README/CONTRIBUTING references and record the setup in
 prompt.ai/research/ and local session notes.
@@ -108,7 +107,7 @@ coherent over time.
 
 - `prompt.ai` folder for development logs and release summaries
 - `prompt.ai/research` for LLM-generated guidance and analysis artifacts
-- `.cursor/rules` guidance for consistent AI-assisted workflows
+- `CLAUDE.md` guidance for consistent AI-assisted workflows (read by Claude Code; other assistants can adapt the same content)
 - Starter `git_workflow.md` using Conventional Commits + SemVer
 - Template-mode guidance to keep tracked files clean in this source repo
 - Baseline open-source repo files (`LICENSE`, `CONTRIBUTING.md`)
@@ -117,7 +116,7 @@ coherent over time.
 ## Quick start
 
 1. Clone this repo or copy these files into your project.
-2. Keep the `.cursor/rules` files in your project root.
+2. Keep the `CLAUDE.md` file in your project root.
 3. Update `prompt.ai/development_log.md` as tasks are completed.
 4. Follow `prompt.ai/git_workflow.md` when creating branches/commits/releases.
 5. Use one of the copy-paste prompts above with your preferred assistant.
@@ -126,10 +125,7 @@ coherent over time.
 
 ```text
 prompt-ai-guide/
-  .cursor/
-    rules/
-      prompt-ai.mdc
-      git-commit.mdc
+  CLAUDE.md
   prompt.ai/
     development_log.md
     session_notes.template.md
@@ -146,7 +142,7 @@ prompt-ai-guide/
 
 ## Using this in another repo
 
-Copy `.cursor/rules/*` and `prompt.ai/*` into your target repository.
+Copy `CLAUDE.md` and `prompt.ai/*` into your target repository.
 
 Then tailor:
 - branch names in `prompt.ai/git_workflow.md`
@@ -161,7 +157,7 @@ In this repository (the template source), keep tracked template files clean.
 - Do not append session history to `prompt.ai/development_log.md`
 - Put durable findings in `prompt.ai/research/`
 - Use `prompt.ai/session_notes.local.md` for scratch notes (gitignored)
-- In adopted project repos, update `.cursor/rules/prompt-ai.mdc` to switch to project-mode logging
+- In adopted project repos, update the "Working conventions" section of `CLAUDE.md` to switch to project-mode logging
 
 ## Research artifacts
 
